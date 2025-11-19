@@ -1,0 +1,19 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Allow key_log.txt to upload
+!key_log.txt
+
+# Ignore editor/system files
+.DS_Store
+.idea/
+.vscode/
